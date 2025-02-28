@@ -21,4 +21,16 @@ L'**AI Real Estate Agent** est une application web qui utilise l'intelligence ar
 ---
 
 ## Structure du Projet
+
 Voici la structure des fichiers du projet :
+├── main.py # Point d'entrée de l'application
+├── models/ # Dossier pour les modèles Pydantic
+│ └── schemas.py # Schémas de données pour la validation
+├── services/ # Dossier pour les services métier
+│ └── property_agent.py # Logique de l'agent de recherche de propriétés
+├── utils/ # Dossier pour les utilitaires
+│ └── config.py # Gestion de la configuration (clés API, etc.)
+├── ui/ # Dossier pour l'interface utilisateur
+│ ├── init.py # Fichier vide pour indiquer que ui est un package
+│ └── app.py # Logique de l'interface utilisateur avec Streamlit
+└── requirements.txt # Fichier des dépendances
