@@ -47,7 +47,6 @@ pip install -r requirements.txt
 - **firecrawl** : API pour extraire des données web.
 - **agno** : Bibliothèque pour interagir avec des modèles d'IA.
 
----
 
 ## Comment exécuter le projet
 1. Clonez le dépôt du projet.
