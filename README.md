@@ -34,3 +34,23 @@ Voici la structure des fichiers du projet :
 │ ├── init.py # Fichier vide pour indiquer que ui est un package
 │ └── app.py # Logique de l'interface utilisateur avec Streamlit
 └── requirements.txt # Fichier des dépendances
+
+## Dépendances
+Les dépendances du projet sont listées dans le fichier `requirements.txt`. Pour installer les dépendances, exécutez :
+
+```bash
+pip install -r requirements.txt
+
+## Dépendances principales
+- **streamlit** : Framework pour créer des applications web interactives.
+- **pydantic** : Bibliothèque pour la validation des données.
+- **firecrawl** : API pour extraire des données web.
+- **agno** : Bibliothèque pour interagir avec des modèles d'IA.
+
+---
+
+## Comment exécuter le projet
+1. Clonez le dépôt du projet.
+2. Installez les dépendances :
+   ```bash
+   pip install -r requirements.txt
